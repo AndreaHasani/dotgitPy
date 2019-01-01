@@ -1,5 +1,8 @@
 # Port of kobus-v-schoor/dotgit to Python
 
+I made this script because I was having problems with the original bash script. 
+As a python programmer it was a nice challenge to implement this.
+
 ## Usage
 
 Consider the following example filelist:
@@ -15,5 +18,7 @@ Since no host was specified with .bashrc it will reside inside the common folder
 
 Lastly the .foo will only be used when you explicitly use the category server. This makes it easy to keep separate configurations inside the same repository.
 
-If you'd like to see a dotgit repository in action you can look at my dotfiles where I keep the dotfiles of 3 PC's that I regularly use.
+## Original Source
+
+https://github.com/kobus-v-schoor/dotgit -> a bash implementation of this script
 
